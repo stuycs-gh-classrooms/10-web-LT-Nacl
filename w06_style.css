@@ -1,0 +1,35 @@
+h1 {
+ color : white;
+ background-color: black;
+ text-align: center;
+}
+
+body {
+ color: white;
+ background-color:#5F5D5D;
+ font-family: 'Courier New', monospace;
+}
+
+
+p {
+ text-align: center;
+ border: 2px solid gold; 
+}
+
+ul {
+background-color: lightsteelblue;
+}
+
+li {
+font-family: "Times";
+}
+
+a {
+color: white;
+font-weight: bold;
+}
+
+img {
+width: 400px;
+height: 200px;
+}
