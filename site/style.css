@@ -1,0 +1,72 @@
+/* I'm aware some of this wasn't taught in class, did some of my own research particularly with the scrolling header. No AI was used */
+body {
+    background-image:url('images/bckg.png');
+  }
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: #1F1F1F;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #edf0ff;
+  padding: 0px 30px;
+}
+
+.nav-list {
+  list-style-type: none;
+}
+
+.nav-item {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav-item a{
+  color: #edf0ff;
+  text-decoration: none;
+  padding: 10px;
+  background-color: #79253e;
+  border-radius: 10px;
+}
+
+.nav-item a:hover{
+  color: #00bfff;
+  background-color: #69152e;
+}
+
+.PageContents{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #1F1F1F;
+  color: #edf0ff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.PageContents p{
+  background-color: #1A1A1A;
+  border-radius: 10px;
+  font-size: 24px;
+  width: 46%;
+  word-wrap: break-word;
+  padding: 1%;
+  margin: 1%;
+  font-weight: 400;
+}
+
+.PageContents img{
+  width: 50%;
+  border-radius: 20px;
+}
+
+.PageContents h2{
+  margin-right: 80%;
+}
